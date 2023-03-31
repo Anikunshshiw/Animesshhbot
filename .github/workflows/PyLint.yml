@@ -12,7 +12,7 @@ jobs:
         uses: actions/setup-python@v1
         with:
           python-version: 3.10.10
-      - name: Install Python lint libraries
+      - name: Install python lint libraries
         run: |
           pip install autoflake isort black
       - name: Remove unused imports and variables
@@ -30,6 +30,7 @@ jobs:
           commit_message: 'Auto Fixes' 
           commit_options: '--no-verify'
           repository: .
-          commit_user_name: AnonymousX1025
-          commit_user_email: TheAnonymousX1025@gmail.com
-          commit_author: AnonymousX1025 <TheAnonymousX1025@gmail.com>
+          commit_user_name: alon_xd
+
+          commit_user_email: tomrealgold@gmail.com
+          commit_author: alon_xd <tomrealgold@gmail.com>
